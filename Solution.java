@@ -1,4 +1,5 @@
 // Day 0: Mean, Median, and Mode
+
 import java.io.*;
 import java.util.*;
 
