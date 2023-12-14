@@ -57,6 +57,7 @@ public class CentralTendency {
         System.out.println(sum/x); // MEAN
         System.out.println(median);
         System.out.println(maxmode);
+
         
         
     }
