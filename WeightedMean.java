@@ -23,6 +23,8 @@ class WeightedMean {
      */
 
     public static void weightedMean(List<Integer> X, List<Integer> W) {
+
+        // WEIGHTED MEAN FORMULA: sum of (x1*w1)/sum of w1
         double weightedMean = 0;
         double weightedSum = 0;
         for (int i = 0; i < X.size(); i++) {
@@ -30,7 +32,7 @@ class WeightedMean {
             weightedSum += W.get(i);
         }
         
-        System.out.printf("%.1f",weightedMean/weightedSum);
+        System.out.printf("%.1f",weightedMean/weightedSum); // percision of 1
 
     }
 
